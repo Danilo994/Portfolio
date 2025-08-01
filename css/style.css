@@ -15,9 +15,6 @@ header {
     background: #111;
     color: #fff;
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 nav {
@@ -27,6 +24,11 @@ nav {
 nav a {
     color: #fff;
     text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
 }
 
 .projects-list {
