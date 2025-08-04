@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #000000;
+    background-image: linear-gradient(to bottom right, #000000 45%, #1b0e63);
     color: #ffffff;
 }
 
@@ -27,8 +27,22 @@ nav a {
 }
 
 .main {
+    height: 50vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main .title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.main p {
+    font-size: 1.5rem;
 }
 
 .projects-list {
