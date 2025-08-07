@@ -75,6 +75,50 @@ nav a {
   line-height: 1.5;
 }
 
+.skills {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.skills-slider {
+    width: 100vw;
+}
+
+.skills-track {
+    max-width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.skills-track ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    animation: 15s infinite slide linear;
+}
+
+.skills-track img{
+    width: 50px;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-1124px);
+    }
+}
+
+li {
+    list-style: none;
+}
+
 .projects-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
