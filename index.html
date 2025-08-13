@@ -6,21 +6,24 @@
     <title>Potfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-          
 </head>
 <body>
     <header class="header">
+        <div class="logo">Danilo Carmo</div>
         <nav class="navbar">
             <a href="#about">About</a>
             <a href="#projets">Projets</a>
             <a href="#contact">Contact</a>
         </nav>
+        <a href="Curriculo_DaniloCarmo.pdf" class="btn-cv" target="_blank">Download CV</a>
     </header>
-    <section class="main">
-        <h1 class="title">Danilo Carmo</h1>
-        <p>Full Stack Developer</p>
+    <section class="main" id="main">
+        <div class="main-content">
+            <h1 class="title">Danilo Carmo</h1>
+            <p>Full Stack Developer</p>
+        </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <img src="imgs/Foto_eu.jpg" alt="Picture of me">
         <div class="about-text">
             <h2>About me:</h2>
@@ -34,7 +37,7 @@
             <p>- HTML, CSS, JavaScript for frontend basics</p>
         </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
         <h2>My Skills:</h2>
         <div class="skills-slider">
             <div class="skills-track">
@@ -132,7 +135,7 @@
             </div>
         </div>
     </section>
-    <section class="projets">
+    <section class="projets" id="projets">
         <h2>My projets:</h2>
         <div class="projects-list">
             <div class="project-card">
@@ -162,7 +165,7 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <h2>Contact:</h2>
         <ul class="contact-list">
             <li>
@@ -199,5 +202,6 @@
     <footer class="footer">
 
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
